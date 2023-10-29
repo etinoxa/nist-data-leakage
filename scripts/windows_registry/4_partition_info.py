@@ -1,7 +1,7 @@
 import struct
 import sys
 
-# Execution: python3 partition_info.py ../cfreds_2015_data_leakage_pc.dd 206848
+# Execution: python3 4_partition_info.py ../cfreds_2015_data_leakage_pc.dd 206848
 
 def read_sector(image_file, offset, sector_size):
     image_file.seek(offset * sector_size)

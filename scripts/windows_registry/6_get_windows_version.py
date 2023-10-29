@@ -2,7 +2,7 @@ import argparse
 from regipy import RegistryHive
 
 # Replace this path with the actual path to your SOFTWARE hive file
-# hive_path = '../working_files/registry/SYSTEM'
+# hive_path = '../working_files/registry/SOFTWARE'
 # Get the Windows version information
 def get_windows_version(hive_path):
     key_path = r'\Microsoft\Windows NT\CurrentVersion'

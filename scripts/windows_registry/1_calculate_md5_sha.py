@@ -38,10 +38,11 @@ def calculate_sha256(file_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python hash_calculator.py <file_path>")
+        print("Usage: python 1_calculate_md5_sha.py <file_path>")
         sys.exit(1)
 
-    file_path = sys.argv[1]
+    file_path = "/home/etinoxa/PycharmProjects/forensic-lab/cfreds_2015_data_leakage_pc.dd"
+    # file_path = sys.argv[1]
 
     try:
         md5_hash = calculate_md5(file_path)
