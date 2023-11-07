@@ -4,7 +4,7 @@ import argparse
 
 
 # hive_path = "../working_files/registry/SYSTEM"
-# Execution = python .\scripts\11_get_shutdown_time.py .\working_files\registry\SYSTEM
+# Execution = python .\topics\11_get_shutdown_time.py .\working_files\registry\SYSTEM
 def get_shutdown_time(hive_path):
     key_path = r"\ControlSet001\Control\Windows"
     # hive_path = "../working_files/registry/SYSTEM"

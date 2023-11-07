@@ -2,7 +2,7 @@ from regipy import RegistryHive
 import argparse
 
 # hive_path = "../working_files/registry/SOFTWARE"
-# Execution = python .\scripts\9_get_installed_apps.py .\working_files\registry\SOFTWARE
+# Execution = python .\topics\9_get_installed_apps.py .\working_files\registry\SOFTWARE
 
 
 def get_installed_apps(hive_path):

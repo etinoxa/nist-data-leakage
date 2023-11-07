@@ -2,7 +2,7 @@ from regipy import RegistryHive
 import argparse
 
 #hive_path = "../working_files/registry/SYSTEM"
-# Execution = python .\scripts\12_get_network_interface_info.py .\working_files\registry\SYSTEM
+# Execution = python .\topics\12_get_network_interface_info.py .\working_files\registry\SYSTEM
 
 def get_network_interface_info(hive_path):
     registry = RegistryHive(hive_path)

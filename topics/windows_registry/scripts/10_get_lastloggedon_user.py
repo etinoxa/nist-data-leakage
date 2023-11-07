@@ -2,7 +2,7 @@ from regipy import RegistryHive
 import argparse
 
 # hive_path = "../working_files/registry/SOFTWARE"
-# Execution = python .\scripts\10_get_lastloggedon_user.py .\working_files\registry\SOFTWARE
+# Execution = python .\topics\10_get_lastloggedon_user.py .\working_files\registry\SOFTWARE
 def get_last_logged_on_user(hive_path):
     key_path = r"\Microsoft\Windows\CurrentVersion\Authentication\LogonUI"
 
